@@ -109,6 +109,13 @@ main {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
+
+    .nav-link {
+      @include easeOut;
+      &:hover {
+        color: #eece1a;
+      }
+    }
   }
 }
 
